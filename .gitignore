@@ -1,0 +1,72 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# IDE settings and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+
+# Debug files
+debug/
+
+# Package lock files (optional if you want them ignored)
+# /package-lock.json
+# /yarn.lock
+
+# Coverage reports
+coverage/
+
+# PM2 Process Manager Logs
+.pm2/logs/
+.pm2/pids/
+.pm2/config/
+
+# Heroku related files (optional)
+.heroku/
+Procfile
+
+# Docker related files (if using Docker)
+docker-compose.yml
+Dockerfile
