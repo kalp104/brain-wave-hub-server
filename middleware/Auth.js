@@ -97,4 +97,5 @@ exports.isInstructor = async (req, res, next) => {
 			.status(500)
 			.json({ success: false, message: `User Role Can't be Verified` });
 	}
+    
 };

@@ -17,12 +17,23 @@ const coursesSchema = new mongoose.Schema({
         type: [String],
         required: true,
     },
+    ratingAndReviews: [
+        {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "RatingAndReview",
+        },
+      ],
     courseContent: [
         {
           type: mongoose.Schema.Types.ObjectId,
           ref: "Section",
         },
     ],
+    category: {
+        type: mongoose.Schema.Types.ObjectId,
+        // required: true,
+        ref: "Category",
+      },
     studentsEnroled: [
         {
           type: mongoose.Schema.Types.ObjectId,

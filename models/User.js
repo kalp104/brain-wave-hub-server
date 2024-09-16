@@ -13,11 +13,14 @@ const userSchema = new mongoose.Schema(
             required : true,
             trim: true,
         },
+        contactNo : {
+            contactNumber : String,
+        },
         password : {
             type : String,
             required : true,
         },
-        accoutTyoe: {
+        accountType: {
             type: String,
             enum: ["Admin", "Student", "Instructor"],
             required : true,
